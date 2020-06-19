@@ -28,7 +28,6 @@ h1 {
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-position: -12px -3px;
-    
     background-size: 45em;
     
 }
@@ -42,7 +41,9 @@ h1 {
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 45em;
     background-position: -226px -4px;
-    background-attachment: scroll;
+    margin-left: 2em;
+    margin-right: 2em;
+  
 }
 
 #scissor{
@@ -54,6 +55,7 @@ h1 {
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 45em;
     background-position: -33.5em -17em;
+    
 }
 
 .score{
@@ -62,7 +64,5 @@ h1 {
 }
 
 .playing{
-    transform: scale(1.1);
-    border-color: rgb(36, 36, 34);
     box-shadow: 0 0 1rem rgb(36, 36, 36);
 }
