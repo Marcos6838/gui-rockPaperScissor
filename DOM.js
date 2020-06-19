@@ -1,8 +1,4 @@
-const rock = document.querySelector('#rock');
-rock.addEventListener('click', function (e) {
-    console.log(e);
-        
-});
+
 
 const paper = document.querySelector('#paper');
 paper.addEventListener('click',function (e){
@@ -21,11 +17,12 @@ buttonHover.addEventListener('mouseenter',function(e){
 });
 
 
+
 buttonHover.addEventListener('mouseleave',function(e){
     rock.classList.toggle('playing')
 });
 
 buttonHover.addEventListener('touchend',function(e){
-    rock.classList.toggle('playing');
+    rock.classList.remove('playing')
 });
 

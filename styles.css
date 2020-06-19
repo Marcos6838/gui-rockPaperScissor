@@ -62,6 +62,7 @@ h1 {
 }
 
 .playing{
+    transform: scale(1.1);
     border-color: rgb(36, 36, 34);
     box-shadow: 0 0 1rem rgb(36, 36, 36);
 }
