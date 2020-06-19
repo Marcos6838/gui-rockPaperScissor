@@ -13,37 +13,53 @@ h1 {
 
 .buttons{
     text-align: center;
+    
 
 }
 
 #rock{
-    height: 140px;
-    width: 140px;
+    height: 10em;
+    width: 10em;
     border: none;
+    transition: all .07 ease;
+    outline: none;
     background-size: cover;
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
-    background-position: -8px -3px;
-    background-size: 600px
+    background-position: -12px -3px;
+    background-size: 600px;
+    
 }
 
 #paper{
-    width: 140px;
-    height: 140px;
+    width: 10em;
+    height: 10em;
     border: none;
+    outline: none;
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 600px;
-    background-position: -226px -3px;
+    background-position: -226px -4px;
     
 }
 
 #scissor{
-    width: 140px;
-    height: 140px;
+    width: 10em;
+    height: 10em;
     border: none;
+    outline: none;
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 600px;
-    background-position: -445px -3px;
+    background-position: -445px -4px;
+}
+
+.score{
+    text-align: center;
+    padding-top: 5em;
+}
+
+.playing{
+    border-color: rgb(36, 36, 34);
+    box-shadow: 0 0 1rem rgb(36, 36, 36);
 }
