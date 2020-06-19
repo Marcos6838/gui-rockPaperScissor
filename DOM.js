@@ -16,10 +16,16 @@ scissor.addEventListener('click',function (e){
 
 let buttonHover = document.querySelector('#rock');
 buttonHover.addEventListener('mouseenter',function(e){
+  
     rock.classList.add('playing');
 });
 
+
 buttonHover.addEventListener('mouseleave',function(e){
+    rock.classList.toggle('playing')
+});
+
+buttonHover.addEventListener('touchend',function(e){
     rock.classList.toggle('playing');
-})
+});
 
