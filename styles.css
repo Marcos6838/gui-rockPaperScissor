@@ -37,8 +37,10 @@ h1 {
     height: 10em;
     border: none;
     outline: none;
+    background-size: cover;
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
+    
     background-size: 45em;
     background-position: -62em -.5em;
     
