@@ -42,7 +42,7 @@ h1 {
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 45em;
     background-position: -226px -4px;
-    
+    background-attachment: scroll;
 }
 
 #scissor{
