@@ -26,9 +26,9 @@ h1 {
     background-size: cover;
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
+    background-position: -12px -3px;
+    background-attachment: scroll;
     background-size: 45em;
-    background-position: -1em 16em;
-   
     
 }
 
@@ -40,7 +40,7 @@ h1 {
     border-radius: 50%;
     background: url(https://miro.medium.com/max/2800/1*JOvf8IhmSCqaT7guHfw3BQ.jpeg);
     background-size: 45em;
-    background-position: -17em -17em;
+    background-position: -226px -4px;
     
 }
 
